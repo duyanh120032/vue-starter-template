@@ -1,7 +1,6 @@
 <template>
   <header>
     <div class="wrapper" text-blue-900>
-      <div i-carbon-close />
       <nav>
         <RouterLink to="/">
           Home
@@ -11,6 +10,9 @@
         </RouterLink>
       </nav>
     </div>
+    <button btn>
+      awdad
+    </button>
   </header>
 
   <RouterView />
