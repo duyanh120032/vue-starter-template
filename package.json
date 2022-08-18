@@ -9,16 +9,30 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@unocss/reset": "0.6.3",
+    "@vueuse/core": "^9.1.0",
+    "@vueuse/head": "^0.7.9",
+    "nprogress": "^0.2.0",
     "pinia": "^2.0.17",
     "vue": "^3.2.37",
+    "vue-demi": "^0.13.8",
+    "vue-i18n": "^9.2.2",
     "vue-router": "^4.1.3"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.26.1",
+    "@iconify-json/carbon": "^1.1.7",
     "@types/node": "^16.11.47",
     "@vitejs/plugin-vue": "^3.0.1",
     "@vue/tsconfig": "^0.1.3",
+    "critters": "^0.0.16",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.22.0",
     "npm-run-all": "^4.1.5",
     "typescript": "~4.7.4",
+    "unocss": "^0.45.7",
+    "unplugin-auto-import": "^0.11.1",
+    "unplugin-vue-components": "^0.22.4",
     "vite": "^3.0.4",
     "vue-tsc": "^0.39.5"
   }
